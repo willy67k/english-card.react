@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://willy67k.github.io/english-card.react",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
