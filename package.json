@@ -1,0 +1,44 @@
+{
+  "name": "english-card",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prettier": "prettier --write \"**/*.+(html|js|jsx|ts|tsx|json|css|scss|sass)\""
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2",
+    "sort-by": "^1.2.0",
+    "vite": "^4.3.8"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.3",
+    "@babel/preset-typescript": "^7.21.5",
+    "@linaria/babel-preset": "^4.4.5",
+    "@linaria/core": "^4.2.10",
+    "@linaria/react": "^4.3.8",
+    "@linaria/rollup": "^4.3.8",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "^20.2.4",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
