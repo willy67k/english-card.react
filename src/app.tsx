@@ -7,12 +7,17 @@ import Home from "./pages/Home";
 import { store } from "./store";
 import { Provider } from "react-redux";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home></Home>,
+    },
+  ],
   {
-    path: "/",
-    element: <Home></Home>,
-  },
-]);
+    basename: "/english-card.react",
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("app") as HTMLElement).render(
   <React.StrictMode>
