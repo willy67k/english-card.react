@@ -4,8 +4,9 @@ import vacabularies from "@/apis/vacabularies.json";
 import { useDispatch, useSelector } from "react-redux";
 import { setInitialShowTitle, setInitialShowTrans } from "@/store/slice/common";
 import { RootState } from "@/store";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { getShuffleArray } from "@/utils/array";
+import Modal from "@/components/Modal";
 
 export type Vacabulary = {
   title: string;
@@ -39,7 +40,9 @@ function Home() {
   const dispatch = useDispatch();
   const initialShowTitle = useSelector((state: RootState) => state.common.initialShowTitle);
   const initialShowTrans = useSelector((state: RootState) => state.common.initialShowTrans);
+  const currentTimes = useSelector((state: RootState) => state.filter.times);
   const [vacabus, setVacabus] = useState<Vacabulary[]>(vacabularies);
+  const [show, setShow] = useState(false);
 
   function toggleAllTitle() {
     dispatch(setInitialShowTitle(!initialShowTitle));
@@ -56,9 +59,18 @@ function Home() {
     });
   }
 
+  useEffect(() => {
+    if (currentTimes === "all") {
+      setVacabus(vacabularies);
+    } else {
+      setVacabus(vacabularies.filter((v) => currentTimes.includes(v.time)));
+    }
+  }, [currentTimes]);
+
   return (
     <div className="home">
       <Controller>
+        <Button onClick={() => setShow((prev) => !prev)}>Filter</Button>
         <Button onClick={shuffleVacabus}>Shuffle</Button>
         <Button onClick={toggleAllTitle}>Title</Button>
         <Button onClick={toggleAllTrans}>Trans</Button>
@@ -68,6 +80,7 @@ function Home() {
           <VacabularyCard data={vac} key={vac.title} />
         ))}
       </Panel>
+      <Modal show={show} setShow={setShow} />
     </div>
   );
 }
