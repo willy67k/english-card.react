@@ -250,5 +250,185 @@
     "group": "verb",
     "trans": "丟棄",
     "time": "2024/09/26"
+  },
+  {
+    "title": "sanitary",
+    "group": "adjective",
+    "trans": "衛生的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "regardless",
+    "group": "adverb",
+    "trans": "不管怎樣",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "merchandise",
+    "group": "noun",
+    "trans": "商品",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "comply with",
+    "group": "phrase",
+    "trans": "響應",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "as a token of",
+    "group": "phrase",
+    "trans": "為了表達",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "goodwill",
+    "group": "noun",
+    "trans": "善意",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "pest",
+    "group": "noun",
+    "trans": "害蟲",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "apply a to b",
+    "group": "phrase",
+    "trans": "讓a適用於b",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "carry out",
+    "group": "phrase",
+    "trans": "實踐",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "in brief",
+    "group": "phrase",
+    "trans": "簡而言之",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "appealing(to)",
+    "group": "adjective",
+    "trans": "吸引力的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "intergrated",
+    "group": "adjective",
+    "trans": "整合的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "patented",
+    "group": "adjective",
+    "trans": "取得專利的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "warranty",
+    "group": "noun",
+    "trans": "保固",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "accommodate",
+    "group": "verb",
+    "trans": "收容",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "acquire",
+    "group": "verb",
+    "trans": "收購",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "municipal",
+    "group": "adjective",
+    "trans": "市政的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "conserve",
+    "group": "verb",
+    "trans": "節約",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "conprehensive",
+    "group": "adjective",
+    "trans": "包羅萬象的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "concise",
+    "group": "adjective",
+    "trans": "精簡的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "on track",
+    "group": "phrase",
+    "trans": "按部就班",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "refferal",
+    "group": "noun",
+    "trans": "推薦",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "appropriate",
+    "group": "adjective",
+    "trans": "適合的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "renovation",
+    "group": "noun",
+    "trans": "整修",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "relocation",
+    "group": "noun",
+    "trans": "搬遷",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "explict",
+    "group": "adjective",
+    "trans": "明確的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "overdue",
+    "group": "adjective",
+    "trans": "逾期的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "exceptional",
+    "group": "adjective",
+    "trans": "卓越的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "distinctive",
+    "group": "adjective",
+    "trans": "獨特的",
+    "time": "2024/9/29"
+  },
+  {
+    "title": "confidential",
+    "group": "adjective",
+    "trans": "機密的",
+    "time": "2024/9/29"
   }
 ]
